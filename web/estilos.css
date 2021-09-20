@@ -1,0 +1,58 @@
+body {
+    background: #00AAFF;
+}
+#quadro {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    top: 30%;
+    border: 4px;
+    border-style:solid;
+    border-color: #33ff33;
+}
+
+#quadro h1 {
+    color:#0000FF;
+    text-decoration: underline;
+}
+#global {
+    position: absolute;
+    height: 100%;
+    left: 15%;
+    width: 70%;
+    background: #FFFFFF;
+}
+#banner {
+    position: absolute;
+    height: 124px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-image: url("lojaVirtual.jpg");
+}
+#menu {
+    position: absolute;
+    height: 50px;
+    top: 124px;
+    left: 0px;
+    width: 100%;
+    background: #0000FF;
+}
+#conteudo {
+    position: absolute;
+    height: 70%;
+    top: 174px;
+    left: 0px;
+    width: 100%;
+}
+.itemsMenu {
+    list-style: none;
+}
+.itemsMenu li {
+    float: left;
+    width: 14%;
+    color: #FFFFFF;
+}
+.itemsMenu li a {
+    color: #FFFFFF;
+}
